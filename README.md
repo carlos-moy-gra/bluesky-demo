@@ -79,6 +79,6 @@ For security reasons, it is better to create an application pasword if you plan 
 
 ### 5. Extract text from the posts and apply NLP techniques
 
-![image](./img/sentiment_count.png)
+![image](img/sentiment_count.png)
 
-![image](./img/top_5_topics_count.png)
+![image](img/top_5_topics_count.png)
