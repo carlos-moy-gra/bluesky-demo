@@ -49,7 +49,7 @@ No! That's why this tutorial makes sense. In the good old days it was possible t
 Bluesky aims to support an open and decentralized ecosystem, with no cost barriers for accessing the API
 
 ## Okay... but which are the rates?
-Official max rates can be found here link, but a summary is provided below.
+Official max rates can be found [here](https://docs.bsky.app/docs/advanced-guides/rate-limits), but a summary is provided below.
 
 * 3K requests per 5 mins per IP address
 * ~1.5K posts per hour per account and a max of ~11.5K per day
@@ -62,9 +62,14 @@ It is possible to run your own Personal Data Server (PDS) as a developer, where 
 
 ### 1. Create an account
 
-Creating an account in Bluesky is easy and fast. You just need to go to the main webpage and 
+Creating an account in Bluesky is easy and fast. You just need to go to the main webpage ([bsky.app](https://bsky.app/)), follow 3 simple steps, and you'll be able to start using Bluesky!
 
-### 2. Configure an appplication password
+![image](img/bluesky_account.png)
+
+### 2. Configure an application password
+For security reasons, it is better to create an application pasword if you plan to access Bluesky programatically. You can create one by going to ```Settings/Privacity and Security```. Once you're there, click on *App passwords*.
+
+![image](img/app_passwords.png)
 
 ### 3. Instantiate a client
 
