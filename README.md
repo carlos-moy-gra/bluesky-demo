@@ -5,17 +5,15 @@
 
 ## What does it make it so different from Twitter (X)?
 
-|-----------------------|----------------------------------|----------------------------------|
-| Feature               | Bluesky                          | Twitter                          |
+| Feature               | Bluesky                          | X                                |
 |-----------------------|----------------------------------|----------------------------------|
 | **Architecture**      | Decentralized (AT Protocol)      | Centralized                      |
 | **Data Ownership**    | Users own and migrate data       | Controlled by Twitter            |
 | **Feed Algorithms**   | User-customizable                | Proprietary                      |
 | **Moderation**        | Community-driven                 | Centralized                      |
 | **Revenue Model**     | Free, no ads (currently)         | Ads and paid subscriptions       |
-| **Access**            | Invite-only (as of now)          | Open to all                      |
+| **Access**            | Open to all                      | Open to all                      |
 | **Censorship**        | Flexible (server-specific rules) | Centralized enforcement          |
-|-----------------------|----------------------------------|----------------------------------|
 
 ## Do I have to pay for consuming posts from Bluesky?
 No! That's why this tutorial makes sense. In the good old days it was possible to consume data from Twitter with very few restrictions, but it's not the case anymore. By using Bluesky as an alternative, developers, hackers and anybody with basic CS background can start processing textual data, which is a real analytics goldmine.
