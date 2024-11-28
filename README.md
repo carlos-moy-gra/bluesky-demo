@@ -75,7 +75,7 @@ For security reasons, it is better to create an application pasword if you plan 
 
 
 ### 4. Retrieve posts data
-The easiest data to retrieve data from a user's feed in Bluesky is by calling the ***get_author_feed()*** method with a DID and a filter determining the target and the desired type of content, respectively.
+The easiest data to retrieve data from a user's feed in Bluesky is by calling the ***get_author_feed()*** method with a DID (see what's that in the AT Protocol: [link](https://atproto.com/specs/did)) and a filter determining the target and the desired type of content, respectively.
 ```
 data = client.get_author_feed(
     actor=target_did
