@@ -96,7 +96,7 @@ that can be studied [here](https://atproto.blue/en/latest/atproto/atproto_client
 ### 5. Extract text from the posts and apply NLP techniques
 Once we have extracted text data from Bluesky, we are ready to apply NLP techniques. For the sake of simplicity, in this tutorial we have just focused on two easy tasks:
 
-1. Sentiment analysis using TextBlob (rule-based, [link]())
+#### 5.1 Sentiment analysis using TextBlob (rule-based, [link]())
 
 When we execute ```python bluesky_demo.py --sentiment```, we obtain the following output in the console:
 
@@ -106,7 +106,7 @@ Also, the image below is generated, indicating the count of the last 100 posts o
 
 ![image](img/sentiment_count.png)
 
-2. Topic modeling using a Transformer model from Hugging Face
+#### 5.2 Topic modeling using a Transformer model from Hugging Face
 
 When we execute ```python bluesky_demo.py --topic```, we obtain the following output in the console:
 
