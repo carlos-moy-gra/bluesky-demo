@@ -102,9 +102,16 @@ When we execute ```python bluesky_demo.py --sentiment```, we obtain the followin
 
 ![image](img/sentiment_analysis_outcome_def.png)
 
-Also, the image below is generated, indicating the count of posts of a target Bluesky account that fall into the positive, negative or neutral polarity buckets.
+Also, the image below is generated, indicating the count of the last 100 posts of a target Bluesky account that fall into the positive, negative or neutral polarity buckets.
 
 ![image](img/sentiment_count.png)
 
 2. Topic modeling using a Transformer model from Hugging Face
+
+When we execute ```python bluesky_demo.py --topic```, we obtain the following output in the console:
+
+![image](img/topic_modeling_outcome_def.png)
+
+Also, the image below is generated, indicating the count of the top 5 topics for all the posts of a target Bluesky account.
+
 ![image](img/top_5_topics_count.png)
