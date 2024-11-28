@@ -75,7 +75,16 @@ For security reasons, it is better to create an application pasword if you plan 
 
 
 ### 4. Retrieve posts data
-
+The easiest data to retrieve data from a user's feed in Bluesky is by calling the ***get_author_feed()*** method with a DID and a filter determining the target and the desired type of content, respectively.
+```
+data = client.get_author_feed(
+    actor=target_did
+    , filter="posts_and_author_threads"
+    , limit=100
+)
+```
+This method offers the possibility of using pagination to retrieve more than *limit* posts. It has a high number of arguments
+that can be studied [here](https://atproto.blue/en/latest/atproto/atproto_client.models.app.bsky.feed.get_author_feed.html).
 
 ### 5. Extract text from the posts and apply NLP techniques
 
