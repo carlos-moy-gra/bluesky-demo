@@ -72,8 +72,15 @@ For security reasons, it is better to create an application pasword if you plan 
 ![image](img/app_passwords.png)
 
 ### 3. Instantiate a client
+In order to be able to consume data from Bluesky in Python (or for any other action), it is compulsory to create an instance of the XRPC Client that can navigate the AT Protocol. Once the instance has been created, we need to login using the credentials created in the last step.
+```
+from atproto import Client
 
-
+client = Client()
+# By default, it uses the server of bsky.app. To change this behavior, pass the base api URL to constructor
+# Client('https://example.com')
+client.login(handle, password) # Handles are DNS names in the AT Protocol (e.g., XXXX.bsky.social)
+```
 ### 4. Retrieve posts data
 The easiest data to retrieve data from a user's feed in Bluesky is by calling the ***get_author_feed()*** method with a DID (see what's that in the AT Protocol: [link](https://atproto.com/specs/did)) and a filter determining the target and the desired type of content, respectively.
 ```
