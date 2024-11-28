@@ -67,13 +67,18 @@ Creating an account in Bluesky is easy and fast. You just need to go to the main
 ![image](img/bluesky_account.png)
 
 ### 2. Configure an application password
-For security reasons, it is better to create an application pasword if you plan to access Bluesky programatically. You can create one by going to ```Settings/Privacity and Security```. Once you're there, click on *App passwords*.
+For security reasons, it is better to create an application pasword if you plan to access Bluesky programatically. You can create one by going to ```Settings/Privacity and Security```. Once you're there, click on ```App passwords```.
 
 ![image](img/app_passwords.png)
 
 ### 3. Instantiate a client
 
+
 ### 4. Retrieve posts data
+
 
 ### 5. Extract text from the posts and apply NLP techniques
 
+![image](./img/sentiment_count.png)
+
+![image](./img/top_5_topics_count.png)
