@@ -94,7 +94,17 @@ This method offers the possibility of using pagination to retrieve more than *li
 that can be studied [here](https://atproto.blue/en/latest/atproto/atproto_client.models.app.bsky.feed.get_author_feed.html).
 
 ### 5. Extract text from the posts and apply NLP techniques
+Once we have extracted text data from Bluesky, we are ready to apply NLP techniques. For the sake of simplicity, in this tutorial we have just focused on two easy tasks:
+
+1. Sentiment analysis using TextBlob (rule-based, [link]())
+
+When we execute ```python bluesky_demo.py --sentiment```, we obtain the following output in the console:
+
+![image](img/sentiment_analysis_outcome_def.png)
+
+Also, the image below is generated, indicating the count of posts of a target Bluesky account that fall into the positive, negative or neutral polarity buckets.
 
 ![image](img/sentiment_count.png)
 
+2. Topic modeling using a Transformer model from Hugging Face
 ![image](img/top_5_topics_count.png)
