@@ -108,6 +108,11 @@ Also, the image below is generated, indicating the count of the last 100 posts o
 
 #### 5.2 Topic modeling using a Transformer model from Hugging Face
 
+**Model employed:** [Link to the model](https://huggingface.co/MaartenGr/BERTopic_Wikipedia). It is a [BERTopic](https://maartengr.github.io/BERTopic/index.html) model trained on ~1M Wikipedia pages (first paragraph of each page).
+
+**Summary from the authors:** 
+"BERTopic is a topic modeling technique that leverages 🤗 transformers and c-TF-IDF (method that incorporates contextual information) to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions."
+
 When we execute ```python bluesky_demo.py --topic```, we obtain the following output in the console:
 
 ![image](img/topic_modeling_outcome_def.png)
